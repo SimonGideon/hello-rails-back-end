@@ -130,10 +130,11 @@ If you want to use the front-end repo, clone it: https://github.com/sebalp100/he
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Sebastian Martin**
+👤 **Simon Gideon**
 
-- GitHub: [@sebalp100](https://github.com/sebalp100)
-- LinkedIn: [Sebastian Martin](https://www.linkedin.com/in/sebastian-martin-956b2724a/)
+- GitHub: [@SimonGideon](https://github.com/SimonGideon)
+- Twitter: [@Simo_Giddy](https://twitter.com/Simo_Giddy)
+- LinkedIn: [mnayi-gideon](https://linkedin.com/in/mnayi-gideon)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
