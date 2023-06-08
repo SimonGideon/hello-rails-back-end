@@ -23,3 +23,26 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 79ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7392)
 
 
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.8ms)[0m  [1m[32mINSERT INTO "messages" ("greeting", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["greeting", "Holla, nice to meet you"], ["created_at", "2023-06-08 09:49:04.108033"], ["updated_at", "2023-06-08 09:49:04.108033"]]
+  [1m[36mTRANSACTION (27.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mMessage Load (23.0ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.7ms)[0m  [1m[32mINSERT INTO "messages" ("greeting", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["greeting", "How are you this morning"], ["created_at", "2023-06-08 09:49:55.428484"], ["updated_at", "2023-06-08 09:49:55.428484"]]
+  [1m[36mTRANSACTION (12.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Create (0.6ms)[0m  [1m[32mINSERT INTO "messages" ("greeting", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["greeting", "There youre a great person indeed"], ["created_at", "2023-06-08 09:50:11.155450"], ["updated_at", "2023-06-08 09:50:11.155450"]]
+  [1m[36mTRANSACTION (20.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mMessage Count (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "messages"[0m
+Started GET "/s" for ::1 at 2023-06-08 12:50:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/s"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 12:50:35 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 36ms (Views: 0.3ms | ActiveRecord: 14.2ms | Allocations: 8713)
+
+
