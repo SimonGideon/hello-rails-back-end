@@ -46,3 +46,258 @@ Processing by Api::V1::MessagesController#random_greetings as HTML
 Completed 200 OK in 36ms (Views: 0.3ms | ActiveRecord: 14.2ms | Allocations: 8713)
 
 
+Started GET "/ws" for ::1 at 2023-06-08 15:26:21 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/ws" for ::1 at 2023-06-08 15:26:30 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/ws"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:26:40 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:26:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:26:53 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:30:08 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:30:18 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:30:58 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:31:39 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:32:14 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:32:44 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:32:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/" for ::1 at 2023-06-08 15:33:11 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-3.2.2/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-3.2.2/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 33.3ms | Allocations: 280)
+Completed 200 OK in 56ms (Views: 35.6ms | Allocations: 2258)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:33:15 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:33:21 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:34:49 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:35:11 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:37:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:37:11 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:39:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 15:59:02 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/" for ::1 at 2023-06-08 16:13:40 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-3.2.2/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-3.2.2/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 23.4ms | Allocations: 271)
+Completed 200 OK in 33ms (Views: 26.6ms | Allocations: 857)
+
+
+Started GET "/" for ::1 at 2023-06-08 16:13:44 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/share/rvm/gems/ruby-3.2.2/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/share/rvm/gems/ruby-3.2.2/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 13)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 212)
+
+
+Started GET "/l" for ::1 at 2023-06-08 16:13:48 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/l"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:15:20 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:18:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:18:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:21:15 +0300
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:21:15 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (395.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 798ms (Views: 0.6ms | ActiveRecord: 538.5ms | Allocations: 8670)
+
+
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:21:28 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 723)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:21:28 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:21:29 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.6ms | Allocations: 721)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:21:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:21:30 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:21:30 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:21:31 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 3ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 722)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:21:31 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:22:32 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.7ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.7ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:22:32 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:25:22 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:25:22 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:25:24 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:25:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:27:23 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.6ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.6ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:27:24 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:27:28 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.5ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:27:29 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 16:28:55 +0300
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (0.5ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.5ms | Allocations: 711)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 16:28:55 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 20:08:03 +0300
+Started GET "/api/v1/messages/random" for ::1 at 2023-06-08 20:08:03 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (49.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
+Processing by Api::V1::MessagesController#random_greetings as HTML
+  [1m[36mMessage Load (10.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" ORDER BY RANDOM() LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/api/v1/messages_controller.rb:3:in `random_greetings'
+Completed 200 OK in 99ms (Views: 0.8ms | ActiveRecord: 33.0ms | Allocations: 15182)
+
+
+Started GET "/manifest.json" for 127.0.0.1 at 2023-06-08 20:08:52 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/manifest.json"):
+  
