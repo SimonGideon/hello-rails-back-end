@@ -14,7 +14,6 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -77,8 +76,8 @@ This is a simple repo to test the connection between React and Rails, using Redu
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### Front end URL
+[Frontend Link](https://github.com/SimonGideon/hello-react-front-end/tree/greetings)
 
 <!-- GETTING STARTED -->
 
